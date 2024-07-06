@@ -15,9 +15,9 @@ MMPD is built upon the 2D detection datasets, including
 [PEDRo](https://github.com/SSIGPRO/PEDRo-Event-Based-Dataset),
 [FLIR](https://adas-dataset-v2.flirconservator.com/#downloadguide),
 [EventPed](XXX),
-In order to use MMPD, please download images from the original datasets first,
+In order to use MMPD, please download images from the original dataset websites first,
 then reorganize the data and use our provided
-[annotation files Google Drive](https://drive.google.com/file/d/1ly5j181GMpP9Rkx0weFamh7CqElL9FXh/view?usp=sharing) or [annotation files BaiDu Yun(Code: mmpd)](https://pan.baidu.com/s/1O4Hm44eBvwMflqizLlGUrQ) for training and testing.
+[annotation files Google Drive](https://drive.google.com/file/d/1ly5j181GMpP9Rkx0weFamh7CqElL9FXh/view?usp=sharing) or [annotation files BaiDu Yun (Code: mmpd)](https://pan.baidu.com/s/1O4Hm44eBvwMflqizLlGUrQ) for training and testing.
 
 
 After preparing images and annotations, the project should look like this:
@@ -50,4 +50,22 @@ python tools/datasets_converters/stcrowd_pointcloud2cam.py
 PEDRo events dataset Event2RGB
 ```shell
 python tools/datasets_converters/multi_process_evs_handler.py
+```
+
+## Terms of Use
+
+1. MMPD-dataset is **ONLY** for research and non-commercial use.
+2. MMPD dataset consists of multiple existing public datasets ([COCO](http://cocodataset.org/), [CrowdHuman](https://www.crowdhuman.org/), [Object365](https://www.objects365.org/overview.html), [LLVIP](https://bupt-ai-cz.github.io/LLVIP/), [InOutDoor](http://adaptivefusion.cs.uni-freiburg.de/), [STCrowd](https://github.com/4DVLab/STCrowd), [PEDRo](https://github.com/SSIGPRO/PEDRo-Event-Based-Dataset), [FLIR](https://adas-dataset-v2.flirconservator.com/#downloadguide)), which are not our property. We do not own the copyright of the images. We are not responsible for the content nor the meaning of these images. 
+3. MMPD dataset also contains one newly proposed dataset ([EventPed](XXX)). The images and annotations of EventPed dataset belong to [SenseTime Research](https://www.sensetime.com), and are licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/legalcode). For commercial usage of our EventPed dataset (or MMPD dataset), please contact Mr. Malon (machang[at]tetras[dot]ai) and cc Sheng Jin (jinsheng13[at]foxmail[dot]com).
+
+
+## Citation
+```bibtex
+@article{zhang2024when,
+  title={When Pedestrian Detection Meets Multi-Modal Learning: Generalist Model and Benchmark Dataset},
+  author={Zhang, Yi and Zeng, Wang and Jin, Sheng and Qian, Chen and Luo, Ping and Liu, Wentao},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2024},
+  month={September}
+}
 ```
