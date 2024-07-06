@@ -16,8 +16,8 @@ MMPD is built upon the 2D detection datasets, including
 [FLIR](https://adas-dataset-v2.flirconservator.com/#downloadguide),
 [EventPed](XXX),
 In order to use MMPD, please download images from the original dataset websites first,
-then reorganize the data and use our provided
-[annotation files Google Drive](https://drive.google.com/file/d/1ly5j181GMpP9Rkx0weFamh7CqElL9FXh/view?usp=sharing) or [annotation files BaiDu Yun (Code: mmpd)](https://pan.baidu.com/s/1O4Hm44eBvwMflqizLlGUrQ) for training and testing.
+then reorganize the data and use our provided annotation files 
+[Google Drive](https://drive.google.com/file/d/1ly5j181GMpP9Rkx0weFamh7CqElL9FXh/view?usp=sharing) or [BaiDu Yun (Code: mmpd)](https://pan.baidu.com/s/1O4Hm44eBvwMflqizLlGUrQ) for training and testing.
 
 
 After preparing images and annotations, the project should look like this:
