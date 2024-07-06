@@ -61,7 +61,7 @@ python tools/datasets_converters/multi_process_evs_handler.py
 
 ## Citation
 ```bibtex
-@article{zhang2024when,
+@inproceedings{zhang2024when,
   title={When Pedestrian Detection Meets Multi-Modal Learning: Generalist Model and Benchmark Dataset},
   author={Zhang, Yi and Zeng, Wang and Jin, Sheng and Qian, Chen and Luo, Ping and Liu, Wentao},
   booktitle={European Conference on Computer Vision (ECCV)},
