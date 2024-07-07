@@ -40,7 +40,7 @@ After preparing images and annotations, the project should look like this:
 ```
 ## Data Processing
 
-Please obtain the data processing script from the following repo: [MMPedstron](https://github.com/BubblyYi/MMPedstron)
+Please obtain the data processing script from the following repo: [MMPedestron](https://github.com/BubblyYi/MMPedestron)
 
 STCrowd Lidar2RGB
 ```shell
