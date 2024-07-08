@@ -58,7 +58,7 @@ python tools/datasets_converters/multi_process_evs_handler.py
 
 1. MMPD-dataset is **ONLY** for research and non-commercial use.
 2. MMPD dataset consists of multiple existing public datasets ([COCO](http://cocodataset.org/), [CrowdHuman](https://www.crowdhuman.org/), [Object365](https://www.objects365.org/overview.html), [LLVIP](https://bupt-ai-cz.github.io/LLVIP/), [InOutDoor](http://adaptivefusion.cs.uni-freiburg.de/), [STCrowd](https://github.com/4DVLab/STCrowd), [PEDRo](https://github.com/SSIGPRO/PEDRo-Event-Based-Dataset), [FLIR](https://adas-dataset-v2.flirconservator.com/#downloadguide)), which are not our property. We do not own the copyright of the images. We are not responsible for the content nor the meaning of these images. 
-3. MMPD dataset also contains one newly proposed dataset ([EventPed](XXX)). EventPed dataset is also ONLY for research and non-commercial use. The images and annotations of EventPed dataset belong to [SenseTime Research](https://www.sensetime.com). For commercial usage of our EventPed dataset (or MMPD dataset), please contact Mr. Malon (machang[at]tetras[dot]ai) and cc Sheng Jin (jinsheng13[at]foxmail[dot]com).
+3. MMPD dataset also contains one newly proposed dataset ([EventPed](XXX)). EventPed dataset is freely available for free non-commercial use, and may be redistributed under these conditions. The images and annotations of EventPed dataset belong to [SenseTime Research](https://www.sensetime.com). For commercial queries, please contact Mr. Sheng Jin (jinsheng13[at]foxmail[dot]com). We will send the detail agreement to you.
 
 
 ## Citation
